@@ -1,4 +1,3 @@
 class Customer < ApplicationRecord
-  validates :name, :email, presence: true
-  validates :email, uniqueness: true
+  validates :name, presence: true
 end
