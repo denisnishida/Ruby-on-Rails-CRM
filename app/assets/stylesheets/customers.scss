@@ -1,3 +1,31 @@
 // Place all the styles related to the customers controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.customer_box {
+  border-style: solid;
+  border-width: thin;
+  border-color: #DCDCDC;
+  width: 200px;
+  height: 400px;
+  margin-right: 15px;
+  float: left;
+
+  p, h3 {
+    padding-top: 2px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+  }
+
+  h3 {
+    font-weight: bold;
+  }
+
+  img {
+    width: 150px;
+    height: 180px;
+    margin-left: auto;
+  	margin-right: auto;
+  	display: block;
+  }
+}

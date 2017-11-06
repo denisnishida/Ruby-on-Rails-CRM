@@ -1,19 +1,23 @@
-<p>
-  <%= image_tag customer.image %>
-</p>
+<div class="customer_box">
 
-<h2>
-  <%= customer.name %>
-</h2>
+  <h3>
+    <%= customer.name %>
+  </h3>
 
-<p>
-  Phone: <%= customer.phone %>
-</p>
+  <p>
+    <%= image_tag customer.image %>
+  </p>
 
-<p>
-  Email: <%= customer.email %>
-</p>
+  <p>
+    <b>Province: </b>
+  </p>
 
-<p>
-  Notes: <%= customer.notes %>
-</p>
+  <p>
+    <%= customer.phone %>
+  </p>
+
+  <p>
+    <%= customer.email %>
+  </p>
+
+</div>
