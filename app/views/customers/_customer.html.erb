@@ -10,6 +10,11 @@
 
   <p>
     <b>Province: </b>
+    <% if customer.province.nil? %>
+      None
+    <% else %>
+      <%= customer.province.name %>
+    <% end %>
   </p>
 
   <p>
